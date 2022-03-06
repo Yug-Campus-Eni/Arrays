@@ -50,7 +50,7 @@ public class Array {
 			for (int i = 0; i < namesArray.length; i++) {
 			namesArray[i] = userInput.nextLine();
 			}
-		} while (namesArray.length != 2); // Condition to stop inputing more data in the Array
+		} while (namesArray[namesArray.length-1] == ""); // Condition to stop inputing more data in the Array
 			
 		System.out.println(Arrays.toString(namesArray)); // print the entire array 
 		
